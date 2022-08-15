@@ -1,5 +1,4 @@
-﻿using DevIO.Business.Interfaces;
-using DevIO.Business.Models;
+﻿using DevIO.Business.Models;
 
 namespace DevIO.Business.Interfaces
 {
