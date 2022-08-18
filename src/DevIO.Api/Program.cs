@@ -12,6 +12,8 @@ builder.Services.AddDbContext<MeuDbContext>(options =>
 
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddIdentityConfig(builder.Configuration);
+
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
